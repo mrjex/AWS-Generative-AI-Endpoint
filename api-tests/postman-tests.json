@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "bc4e9979-1b7c-4ad1-b9ce-424295ea0a1d",
+		"name": "ML-Bedrock-Project-Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36295915"
+	},
+	"item": [
+		{
+			"name": "Test1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blog_topic\": \"Most popular pizza\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dxnl2k5lhk.execute-api.eu-north-1.amazonaws.com/dev/blog-generation",
+					"protocol": "https",
+					"host": [
+						"dxnl2k5lhk",
+						"execute-api",
+						"eu-north-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"blog-generation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blog_topic\": \"Swedish population\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dxnl2k5lhk.execute-api.eu-north-1.amazonaws.com/dev/blog-generation",
+					"protocol": "https",
+					"host": [
+						"dxnl2k5lhk",
+						"execute-api",
+						"eu-north-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"blog-generation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blog_topic\": \"Italian culture vs Spanish culture\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dxnl2k5lhk.execute-api.eu-north-1.amazonaws.com/dev/blog-generation",
+					"protocol": "https",
+					"host": [
+						"dxnl2k5lhk",
+						"execute-api",
+						"eu-north-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"blog-generation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blog_topic\": \"Area of Russia\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dxnl2k5lhk.execute-api.eu-north-1.amazonaws.com/dev/blog-generation",
+					"protocol": "https",
+					"host": [
+						"dxnl2k5lhk",
+						"execute-api",
+						"eu-north-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"blog-generation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blog_topic\": \"Total Asian population\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dxnl2k5lhk.execute-api.eu-north-1.amazonaws.com/dev/blog-generation",
+					"protocol": "https",
+					"host": [
+						"dxnl2k5lhk",
+						"execute-api",
+						"eu-north-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"blog-generation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
