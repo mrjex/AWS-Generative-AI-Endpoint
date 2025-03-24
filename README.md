@@ -33,11 +33,7 @@ And receive a professionally written, cohesive blog post in response!
 
 ## 🏗 System Architecture
 
-The solution integrates multiple AWS services into a seamless pipeline:
-
-![AWS Architecture](assets/architecture.png)
-
-Key AWS Services:
+The solution integrates multiple AWS services into a seamless pipeline. The key AWS Services are:
 - **Bedrock**: Powers the AI generation with Meta's Llama 3 model
 - **Lambda**: Handles request processing and model interaction
 - **API Gateway**: Manages RESTful API endpoints
@@ -101,12 +97,6 @@ done
    pip install -r requirements.txt
    ```
 
-3. **Deploy Infrastructure**
-   ```bash
-   terraform init
-   terraform apply
-   ```
-
 ## 🎓 Development Journey
 
 This project was developed during an intensive learning period in AI/ML technologies. Key learning areas included:
@@ -118,7 +108,7 @@ This project was developed during an intensive learning period in AI/ML technolo
 
 ## 🔗 Related Projects
 
-During my 2024-2025 exchange studies in Venice, Italy, I developed several related projects:
+Some of my related experiences include:
 
 | Project | Description | Technologies |
 |---------|-------------|--------------|
