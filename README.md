@@ -29,9 +29,11 @@ Simply input a topic like:
 - 🏎 "Ferrari vs Lamborghini"
 - 🥗 "Healthy food recipes without sugar"
 
-And receive a professionally written, cohesive blog post in response!
+And receive a professionally written, cohesive blog post in response
 
 ## 🏗 System Architecture
+
+![system-architecture](system-architecture.PNG)
 
 The solution integrates multiple AWS services into a seamless pipeline. The key AWS Services are:
 - **Bedrock**: Powers the AI generation with Meta's Llama 3 model
@@ -39,6 +41,7 @@ The solution integrates multiple AWS services into a seamless pipeline. The key 
 - **API Gateway**: Manages RESTful API endpoints
 - **S3**: Stores generated content and configurations
 - **CloudWatch**: Monitors system performance and logs
+
 
 ## ✨ Key Features
 
